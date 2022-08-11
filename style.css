@@ -1,0 +1,567 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+#sec1{
+height: 90vh;
+background-image: url('background_images/happy-positive-woman-headphones-pink-red-wall.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+nav{
+background:#ffe0fd;
+height: 80px;
+width: 100%;
+}
+
+label.logo{
+color: #74006c;
+font-size: 40px;
+font-weight: bold;
+line-height: 80px;
+padding: 0 100px;
+}
+
+nav ul{
+float: right;
+margin-right: 80px;
+display:inline;
+}
+
+nav ul li{
+display:inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+
+nav ul li a{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(5, 34, 53);
+font-size: 20px;
+font-weight: bold;
+padding: 12px 20px;
+}
+
+a.active,a:hover {
+background: rgb(255, 136, 235);
+transition-duration: .5s;
+border-radius: 20px;
+color: rgb(255, 255, 255);
+}
+
+#l1{
+position:relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 50px;
+color: rgb(69, 0, 71);
+text-transform: uppercase;
+border-radius: 10px;
+top: 120px;
+left: 60px;
+padding: 10px;
+}
+
+#l1:hover{
+background: aliceblue;
+color: rgb(69, 0, 71);
+transition: .5s;
+}
+
+#sec2{
+height: 100vh;
+background-image: url('background_images/expressive-african-american-man-listening-music-headphones.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+#l2{
+position:relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 50px;
+color: rgb(69, 0, 71);
+text-transform: uppercase;
+top: 120px;
+left: 100px;
+}
+
+s{
+color: rgb(165, 99, 167);
+}
+
+r{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-style: italic;
+color: rgb(109, 255, 206);
+}
+
+#sec3{
+height: 100vh;
+background-image: url('background_images/front-view-young-female-white-shirt-listening-music-pink-wall-color-woman-model-woman.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+#l3{
+position:relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 50px;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+top: 80px;
+left: 200px;
+}
+
+#l4{
+position:absolute;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 50px;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+top: 280px;
+left: 1030px;
+}
+
+.contact-section{
+height: 100vh;
+background: url("background_images/contact_bg.jpg") no-repeat center;
+background-size: cover;
+padding: 40px 0;
+}
+
+.contact-section h1{
+text-align: center;
+color: #ddd;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-transform: uppercase;
+}
+
+.border{
+width: 100%;
+height: 2px;
+background: #ffffff;
+margin: 40px auto;
+}
+
+.contact-form{
+max-width: 600px;
+margin: auto;
+padding: 0 10px;
+overflow: hidden;
+}
+
+.contact-form-text{
+display: block;
+width: 100%;
+box-sizing: border-box;
+margin: 16px 0;
+border: 0;
+background: rgb(237, 237, 237);
+padding: 20px 40px;
+outline: none;
+color: rgb(0, 0, 0);
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+transition: 0.5s;
+}
+
+textarea.contact-form-text{
+resize: none;
+height: 120px;
+}
+
+.contact-form-btn{
+float: right;
+border: 0;
+background: #d300e2;
+color: #fff;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 15px 60px;
+border-radius: 20px;
+cursor: pointer;
+transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+background: #9f00ab;
+}
+
+#msec1{
+height: 130vh;
+background-image: url('background_images/background_sec3.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+#ml1{
+position:relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 50px;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+top: 40px;
+left: 380px;
+}
+
+#closer{
+position: absolute;
+top: 237px;
+left: 265px;
+}
+
+#a1{
+position: absolute;
+top: 520px;
+left: 255px;
+width: 270px;
+}
+
+#greenday{
+position: absolute;
+top: 237px;
+left: 650px;
+}
+
+#a2{
+position: absolute;
+top: 520px;
+left: 645px;
+width: 270px;
+}
+
+#cheap{
+position: absolute;
+top: 237px;
+left: 1030px;
+}
+
+#a3{
+position: absolute;
+top: 520px;
+left: 1025px;
+width: 270px;
+}
+
+#wavin{
+position: absolute;
+top: 650px;
+left: 265px;
+}
+
+#a4{
+position: absolute;
+top: 935px;
+left: 255px;
+width: 270px;
+}
+
+#des{
+position: absolute;
+top: 650px;
+left: 650px;
+}
+
+#a5{
+position: absolute;
+top: 935px;
+left: 640px;
+width: 270px;
+}
+
+#shape{
+position: absolute;
+top: 650px;
+left: 1030px;
+}
+
+#a6{
+position: absolute;
+top: 935px;
+left: 1020px;
+width: 270px;
+}
+
+#msec2{
+height: 100vh;
+background-image: url('background_images/background_sec1.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+#ml2{
+position:absolute;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 50px;
+color: rgb(69, 0, 71);
+text-transform: uppercase;
+top: 1150px;
+left: 550px;
+}
+
+#loveme{
+position: absolute;
+top: 1300px;
+left: 265px;
+}
+
+#a7{
+position: absolute;
+top: 1580px;
+left: 255px;
+width: 270px;
+}
+
+#girlslikeyou{
+position: absolute;
+top: 1300px;
+left: 650px;
+}
+
+#a8{
+position: absolute;
+top: 1580px;
+left: 640px;
+width: 270px;
+}
+
+#perfect{
+position: absolute;
+top: 1300px;
+left: 1030px;
+}
+
+#a9{
+position: absolute;
+top: 1580px;
+left: 1020px;
+width: 270px;
+}
+
+#msec3{
+height: 100vh;
+background-image: url('background_images/background_sec2.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+#ml3{
+position:absolute;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 50px;
+color: rgb(83, 6, 71);
+text-transform: uppercase;
+top: 1900px;
+left: 500px;
+}
+
+#venom{
+position: absolute;
+top: 2050px;
+left: 265px;
+}
+
+#a10{
+position: absolute;
+top: 2330px;
+left: 255px;
+width: 270px;
+}
+
+#rapgod{
+position: absolute;
+top: 2050px;
+left: 650px;
+}
+
+#a11{
+position: absolute;
+top: 2330px;
+left: 640px;
+width: 270px;
+}
+
+#notafraid{
+position: absolute;
+top: 2050px;
+left: 1030px;
+}
+
+#a12{
+position: absolute;
+top: 2330px;
+left: 1020px;
+width: 270px;
+}
+
+#license{
+height: 170vh;
+background-image: url('background_images/license_bg.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+#lic{
+position:absolute;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 50px;
+color: rgb(69, 0, 71);
+text-transform: uppercase;
+top: 130px;
+left: 600px;
+}
+
+.para{
+position: absolute;
+top: 230px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+margin: 40px;
+}
+
+#artist{
+height: 90vh;
+background-image: url('background_images/artist_background.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+#al1{
+position:relative;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 50px;
+color: rgb(255, 139, 249);
+background: rgb(255, 255, 255);
+border-radius: 50px;
+padding-top: 14px;
+padding-bottom: 14px;
+padding-left: 24px;
+padding-right: 24px;
+text-transform: uppercase;
+top: 40px;
+left: 600px;
+}
+
+#al2{
+position: absolute;
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(26, 16, 51);
+background: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 60px;
+padding-right: 60px;
+border-radius: 50px;
+top: 510px;
+left: 265px;
+}
+
+#al2:hover{
+background:rgb(26, 16, 51);
+color: white;
+transition: .5s;
+}
+
+#al3{
+position: absolute;
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(26, 16, 51);
+background: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 60px;
+padding-right: 60px;
+border-radius: 50px;
+top: 510px;
+left: 650px;
+}
+
+#al3:hover{
+background:rgb(26, 16, 51);
+color: white;
+transition: .5s;
+}
+
+#al4{
+position: absolute;
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(26, 16, 51);
+background: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 60px;
+padding-right: 60px;
+border-radius: 50px;
+top: 510px;
+left: 1030px;
+}
+
+#al4:hover{
+background:rgb(26, 16, 51);
+color: white;
+transition: .5s;
+}
+
+.p5{
+font-size: 50px;
+color: #474e64;
+padding-left: 10px;
+}
+
+.fa {
+padding: 20px;
+font-size: 50px;
+width: 70px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+
+.fa-facebook {
+position: absolute;
+top: 420px;
+right: 350px;
+background: #3B5998;
+color: white;
+}
+
+.fa-instagram {
+position: absolute;
+top: 420px;
+right: 250px;
+background: #ff88b5;
+color: white;
+}
+
+.fa-youtube {
+position: absolute;
+top: 420px;
+right: 150px;
+background: #bb0000;
+color: white;
+}
